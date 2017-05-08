@@ -143,3 +143,15 @@ TARGET_LINK_LIBRARIES( 83_calcBackProject ${OpenCV_LIBS} )
 
 ADD_EXECUTABLE(84_matchTemplate 84_matchTemplate.cpp)
 TARGET_LINK_LIBRARIES( 84_matchTemplate ${OpenCV_LIBS} )
+
+ADD_EXECUTABLE(orb orb.cpp)
+TARGET_LINK_LIBRARIES( orb ${OpenCV_LIBS} )
+
+ADD_EXECUTABLE(gama gama.cpp)
+TARGET_LINK_LIBRARIES( gama ${OpenCV_LIBS} )
+
+ADD_EXECUTABLE(gray gray.cpp)
+TARGET_LINK_LIBRARIES( gray ${OpenCV_LIBS} )
+
+ADD_EXECUTABLE(resize resize.cpp)
+TARGET_LINK_LIBRARIES( resize ${OpenCV_LIBS} )
